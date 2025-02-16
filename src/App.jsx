@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { Button } from "./components/ui/button";
 import data from "./data.json"; // Ensure data.json is correctly placed in the src folder
 import clsx from "clsx";
@@ -86,25 +86,36 @@ function getdata(split, gender, difficulty, bmi, today) {
   } else {
     bmiCategory = "BMI_30+";
   }
-
-  if (
-    data[split] &&
-    data[split][gender] &&
-    data[split][gender][bmiCategory] &&
-    data[split][gender][bmiCategory][difficulty] &&
-    data[split][gender][bmiCategory][difficulty][today]
-  ) {
-    return data[split][gender][bmiCategory][difficulty][today];
-  } else {
-    console.warn("No workout data found for the given parameters.");
-    return [];
-  }
+  return data[split][gender][bmiCategory][difficulty][today];
+}
+function Excersise({ ex }) {
+  return (
+    <div className="border rounded-lg p-4 shadow-md bg-white w-full max-w-md">
+      <h1 className="text-lg font-bold">{ex.exercise}</h1>
+      <p className="text-gray-600">Weight: {ex.weight_kg} kg</p>
+      <p className="text-gray-600">Reps: {ex.reps}</p>
+    </div>
+  );
 }
 
+function Excersises({ obj }) {
+  return (
+    <div className="flex flex-wrap gap-4 justify-center mt-4">
+      {obj && Object.keys(obj).length > 0 ? (
+        Object.values(obj).map((ex, index) =>
+          obj.a !== "hello" ? <Excersise key={index} ex={ex} /> : null
+        )
+      ) : (
+        <h2 className="text-xl text-gray-500">😴 Rest Day</h2>
+      )}
+    </div>
+  );
+}
 function App() {
   const [day, setDay] = useState(1);
   const [workoutDays, setWorkoutDays] = useState({});
   const [currentDate, setCurrentDate] = useState(new Date());
+  let [obj, setobj] = useState({ a: "hello" });
 
   function handlestart() {
     let split = "push_pull_legs";
@@ -126,12 +137,9 @@ function App() {
       case 0:
         today = "rest";
         break;
-      default:
-        today = "rest";
     }
 
-    let obj = getdata(split, gender, difficulty, bmi, today);
-    console.log(obj);
+    setobj(getdata(split, gender, difficulty, bmi, today));
 
     const formattedDate = `${currentDate.getDate()}-${currentDate.getMonth()}`;
 
@@ -142,7 +150,7 @@ function App() {
   }
 
   function handleClick() {
-    setDay(day + 1); // Cycle through push, pull, legs, rest
+    setDay(day + 1);
     setCurrentDate((prevDate) => {
       let newDate = new Date(prevDate);
       newDate.setDate(newDate.getDate() + 1);
@@ -151,16 +159,25 @@ function App() {
   }
 
   return (
-    <>
-      <MyCalendar workoutDays={workoutDays} />
-      <button className="start_button" onClick={handlestart}>
-        Start Workout!
-      </button>
-      <button className="start_button" onClick={handleClick}>
-        Next
-      </button>
-    </>
+    <div className="flex justify-between items-start p-4 h-screen">
+      {/* Left Side - Exercise Tabs */}
+      <div className="flex flex-nowrap overflow-x-auto space-x-4 w-2/3">
+        <Excersises obj={obj} />
+      </div>
+
+      {/* Right Side - Calendar */}
+      <div className="w-1/3">
+        <MyCalendar workoutDays={workoutDays} />
+        <div className="mt-4 flex gap-4">
+          <button className="start_button" onClick={handlestart}>
+            Start Workout!
+          </button>
+          <button className="start_button" onClick={handleClick}>
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }
-
 export default App;

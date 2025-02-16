@@ -4,6 +4,7 @@
     color: white;
     border-radius: 20px;
     padding: 20px;
+    margin: 20px
 }
 .border-yellow-400 {
     border-bottom: 2px solid yellow;
