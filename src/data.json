@@ -1,0 +1,658 @@
+{
+    "push_pull_legs": {
+    "male": {
+      "BMI_18-24": {
+        "beginner": {
+          "push": [
+            {"exercise": "Bench Press", "weight_kg": "20-40", "reps": "8-12"},
+            {"exercise": "Overhead Press", "weight_kg": "15-30", "reps": "8-12"},
+            {"exercise": "Dips", "weight_kg": "Bodyweight", "reps": "10-15"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "15-30", "reps": "8-12"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "5-15", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "10-20", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Pull-ups", "weight_kg": "Bodyweight", "reps": "8-12"},
+            {"exercise": "Barbell Rows", "weight_kg": "20-40", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Lat Pulldown", "weight_kg": "30-50", "reps": "10-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Bicep Curls", "weight_kg": "10-20", "reps": "10-12"},
+            {"exercise": "Reverse Flys", "weight_kg": "5-15", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Squats", "weight_kg": "30-50", "reps": "8-12"},
+            {"exercise": "Leg Press", "weight_kg": "50-80", "reps": "10-12"},
+            {"exercise": "Calf Raises", "weight_kg": "Bodyweight-20", "reps": "12-15"},
+            {"exercise": "Lunges", "weight_kg": "10-20", "reps": "10-12"},
+            {"exercise": "Leg Curls", "weight_kg": "20-40", "reps": "10-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Step-Ups", "weight_kg": "10-20", "reps": "10-12"}
+          ]
+        },
+        "intermediate": {
+          "push": [
+            {"exercise": "Bench Press", "weight_kg": "40-70", "reps": "6-10"},
+            {"exercise": "Overhead Press", "weight_kg": "30-50", "reps": "6-10"},
+            {"exercise": "Dips", "weight_kg": "Bodyweight+10", "reps": "8-12"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "20-40", "reps": "8-12"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "15-25", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Pull-ups", "weight_kg": "Bodyweight+5", "reps": "8-12"},
+            {"exercise": "Barbell Rows", "weight_kg": "40-70", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Lat Pulldown", "weight_kg": "40-60", "reps": "10-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Bicep Curls", "weight_kg": "15-25", "reps": "10-12"},
+            {"exercise": "Reverse Flys", "weight_kg": "10-20", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Squats", "weight_kg": "50-85", "reps": "8-12"},
+            {"exercise": "Leg Press", "weight_kg": "80-110", "reps": "10-12"},
+            {"exercise": "Calf Raises", "weight_kg": "Bodyweight+20", "reps": "12-15"},
+            {"exercise": "Lunges", "weight_kg": "20-30", "reps": "10-12"},
+            {"exercise": "Leg Curls", "weight_kg": "40-60", "reps": "10-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "15-30", "reps": "12-15"},
+            {"exercise": "Step-Ups", "weight_kg": "20-30", "reps": "10-12"}
+          ]
+        },
+        "advanced": {
+          "push": [
+            {"exercise": "Bench Press", "weight_kg": "70-100", "reps": "4-8"},
+            {"exercise": "Overhead Press", "weight_kg": "50-70", "reps": "4-8"},
+            {"exercise": "Dips", "weight_kg": "Bodyweight+20", "reps": "8-12"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "30-50", "reps": "8-12"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "20-30", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "20-30", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Weighted Pull-ups", "weight_kg": "Bodyweight+10", "reps": "6-10"},
+            {"exercise": "Deadlifts", "weight_kg": "100-150", "reps": "4-8"},
+            {"exercise": "T-Bar Rows", "weight_kg": "50-80", "reps": "8-12"},
+            {"exercise": "Seated Cable Rows", "weight_kg": "50-70", "reps": "8-12"},
+            {"exercise": "Barbell Curls", "weight_kg": "30-40", "reps": "8-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "20-30", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "20-30", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Squats", "weight_kg": "85-120", "reps": "8-12"},
+            {"exercise": "Leg Press", "weight_kg": "110-200", "reps": "10-12"},
+            {"exercise": "Calf Raises", "weight_kg": "Bodyweight+60", "reps": "12-15"},
+            {"exercise": "Lunges", "weight_kg": "30-50", "reps": "10-12"},
+            {"exercise": "Leg Curls", "weight_kg": "60-100", "reps": "10-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "30-40", "reps": "12-15"}
+          ]
+        }
+      },
+      "BMI_25-29": {
+        "beginner": {
+          "push": [
+            {"exercise": "Bench Press", "weight_kg": "25-45", "reps": "8-12"},
+            {"exercise": "Overhead Press", "weight_kg": "20-35", "reps": "8-12"},
+            {"exercise": "Dips", "weight_kg": "Assisted", "reps": "10-15"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "15-30", "reps": "8-12"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "8-15", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "10-20", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Lat Pulldown", "weight_kg": "40-60", "reps": "8-12"},
+            {"exercise": "Seated Cable Rows", "weight_kg": "40-60", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Assisted Pull-ups", "weight_kg": "Assisted", "reps": "8-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Bicep Curls", "weight_kg": "10-20", "reps": "10-12"},
+            {"exercise": "Reverse Flys", "weight_kg": "8-15", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Leg Press", "weight_kg": "60-100", "reps": "10-12"},
+            {"exercise": "Goblet Squats", "weight_kg": "20-30", "reps": "8-12"},
+            {"exercise": "Leg Extensions", "weight_kg": "30-50", "reps": "12-15"},
+            {"exercise": "Lunges", "weight_kg": "Bodyweight-15", "reps": "10-12"},
+            {"exercise": "Leg Curls", "weight_kg": "30-45", "reps": "10-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Step-Ups", "weight_kg": "Bodyweight-15", "reps": "10-12"}
+          ]
+        },
+        "intermediate": {
+          "push": [
+            {"exercise": "Bench Press", "weight_kg": "45-80", "reps": "6-10"},
+            {"exercise": "Overhead Press", "weight_kg": "35-55", "reps": "6-10"},
+            {"exercise": "Dips", "weight_kg": "Bodyweight", "reps": "8-12"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "25-45", "reps": "8-12"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "20-30", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "12-20", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "15-25", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Pull-ups", "weight_kg": "Bodyweight", "reps": "6-10"},
+            {"exercise": "Barbell Rows", "weight_kg": "50-80", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "20-30", "reps": "12-15"},
+            {"exercise": "Lat Pulldown", "weight_kg": "50-70", "reps": "10-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Bicep Curls", "weight_kg": "15-25", "reps": "10-12"},
+            {"exercise": "Reverse Flys", "weight_kg": "12-20", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Squats", "weight_kg": "60-100", "reps": "8-12"},
+            {"exercise": "Leg Press", "weight_kg": "100-150", "reps": "10-12"},
+            {"exercise": "Calf Raises", "weight_kg": "Bodyweight+25", "reps": "12-15"},
+            {"exercise": "Lunges", "weight_kg": "15-30", "reps": "10-12"},
+            {"exercise": "Leg Curls", "weight_kg": "45-65", "reps": "10-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "20-35", "reps": "12-15"},
+            {"exercise": "Step-Ups", "weight_kg": "15-30", "reps": "10-12"}
+          ]
+        },
+        "advanced": {
+          "push": [
+            {"exercise": "Bench Press", "weight_kg": "80-120", "reps": "4-8"},
+            {"exercise": "Overhead Press", "weight_kg": "55-80", "reps": "4-8"},
+            {"exercise": "Dips", "weight_kg": "Bodyweight+15", "reps": "8-12"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "35-55", "reps": "8-12"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "25-40", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "20-35", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Weighted Pull-ups", "weight_kg": "Bodyweight+5", "reps": "6-10"},
+            {"exercise": "Deadlifts", "weight_kg": "120-180", "reps": "4-8"},
+            {"exercise": "T-Bar Rows", "weight_kg": "60-90", "reps": "8-12"},
+            {"exercise": "Seated Cable Rows", "weight_kg": "60-80", "reps": "8-12"},
+            {"exercise": "Barbell Curls", "weight_kg": "30-45", "reps": "8-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "20-35", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "25-35", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Squats", "weight_kg": "100-150", "reps": "8-12"},
+            {"exercise": "Leg Press", "weight_kg": "150-250", "reps": "10-12"},
+            {"exercise": "Calf Raises", "weight_kg": "Bodyweight+80", "reps": "12-15"},
+            {"exercise": "Lunges", "weight_kg": "30-50", "reps": "10-12"},
+            {"exercise": "Leg Curls", "weight_kg": "65-100", "reps": "10-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "35-50", "reps": "12-15"}
+          ]
+        }
+      },
+      "BMI_30+": {
+        "beginner": {
+          "push": [
+            {"exercise": "Machine Chest Press", "weight_kg": "30-50", "reps": "10-15"},
+            {"exercise": "Seated Shoulder Press", "weight_kg": "20-40", "reps": "10-15"},
+            {"exercise": "Assisted Dips", "weight_kg": "Assisted", "reps": "10-15"},
+            {"exercise": "Incline Machine Press", "weight_kg": "30-50", "reps": "10-15"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Seated Lateral Raises", "weight_kg": "5-10", "reps": "12-15"},
+            {"exercise": "Pec Deck", "weight_kg": "20-35", "reps": "12-15"}
+          ],
+          "pull": [
+            {"exercise": "Lat Pulldown", "weight_kg": "40-60", "reps": "10-15"},
+            {"exercise": "Seated Cable Rows", "weight_kg": "40-60", "reps": "10-15"},
+            {"exercise": "Face Pulls", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Assisted Pull-ups", "weight_kg": "Heavy Assist", "reps": "8-12"},
+            {"exercise": "Machine Preacher Curls", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Seated Bicep Curls", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Machine Reverse Flys", "weight_kg": "15-25", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Leg Press", "weight_kg": "80-120", "reps": "12-15"},
+            {"exercise": "Leg Extensions", "weight_kg": "30-50", "reps": "12-15"},
+            {"exercise": "Seated Leg Curls", "weight_kg": "30-50", "reps": "12-15"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "20-35", "reps": "15-20"},
+            {"exercise": "Bodyweight Box Squats", "weight_kg": "Bodyweight", "reps": "10-15"},
+            {"exercise": "Seated Adductor Machine", "weight_kg": "40-60", "reps": "15-20"},
+            {"exercise": "Seated Abductor Machine", "weight_kg": "40-60", "reps": "15-20"}
+          ]
+        },
+        "intermediate": {
+          "push": [
+            {"exercise": "Machine Chest Press", "weight_kg": "50-80", "reps": "8-12"},
+            {"exercise": "Seated Shoulder Press", "weight_kg": "40-60", "reps": "8-12"},
+            {"exercise": "Assisted Dips", "weight_kg": "Light Assist", "reps": "8-12"},
+            {"exercise": "Incline Machine Press", "weight_kg": "50-80", "reps": "8-12"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "25-35", "reps": "10-12"},
+            {"exercise": "Cable Lateral Raises", "weight_kg": "10-15", "reps": "12-15"},
+            {"exercise": "Pec Deck", "weight_kg": "35-50", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Lat Pulldown", "weight_kg": "60-80", "reps": "8-12"},
+            {"exercise": "Seated Cable Rows", "weight_kg": "60-80", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "25-35", "reps": "12-15"},
+            {"exercise": "Assisted Pull-ups", "weight_kg": "Medium Assist", "reps": "8-12"},
+            {"exercise": "Machine Preacher Curls", "weight_kg": "25-35", "reps": "10-12"},
+            {"exercise": "Seated Bicep Curls", "weight_kg": "15-25", "reps": "10-12"},
+            {"exercise": "Machine Reverse Flys", "weight_kg": "25-35", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Leg Press", "weight_kg": "120-160", "reps": "10-12"},
+            {"exercise": "Leg Extensions", "weight_kg": "50-70", "reps": "10-12"},
+            {"exercise": "Seated Leg Curls", "weight_kg": "50-70", "reps": "10-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "35-50", "reps": "12-15"},
+            {"exercise": "Goblet Squats", "weight_kg": "20-35", "reps": "10-12"},
+            {"exercise": "Seated Adductor Machine", "weight_kg": "60-80", "reps": "12-15"},
+            {"exercise": "Seated Abductor Machine", "weight_kg": "60-80", "reps": "12-15"}
+          ]
+        },
+        "advanced": {
+          "push": [
+            {"exercise": "Machine Chest Press", "weight_kg": "80-120", "reps": "6-10"},
+            {"exercise": "Seated Shoulder Press", "weight_kg": "60-90", "reps": "6-10"},
+            {"exercise": "Dips", "weight_kg": "Bodyweight", "reps": "8-12"},
+            {"exercise": "Incline Machine Press", "weight_kg": "80-120", "reps": "6-10"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "35-50", "reps": "8-12"},
+            {"exercise": "Cable Lateral Raises", "weight_kg": "15-25", "reps": "10-12"},
+            {"exercise": "Pec Deck", "weight_kg": "50-70", "reps": "8-12"}
+          ],
+          "pull": [
+            {"exercise": "Lat Pulldown", "weight_kg": "80-100", "reps": "6-10"},
+            {"exercise": "Seated Cable Rows", "weight_kg": "80-100", "reps": "6-10"},
+            {"exercise": "Face Pulls", "weight_kg": "35-45", "reps": "10-12"},
+            {"exercise": "Assisted Pull-ups", "weight_kg": "Light Assist", "reps": "6-10"},
+            {"exercise": "Machine Preacher Curls", "weight_kg": "35-50", "reps": "8-12"},
+            {"exercise": "Seated Bicep Curls", "weight_kg": "25-35", "reps": "8-12"},
+            {"exercise": "Machine Reverse Flys", "weight_kg": "35-50", "reps": "10-12"}
+          ],
+          "legs": [
+            {"exercise": "Leg Press", "weight_kg": "160-220", "reps": "8-12"},
+            {"exercise": "Leg Extensions", "weight_kg": "70-100", "reps": "8-12"},
+            {"exercise": "Seated Leg Curls", "weight_kg": "70-100", "reps": "8-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "50-70", "reps": "10-15"},
+            {"exercise": "Smith Machine Squats", "weight_kg": "60-100", "reps": "8-12"},
+            {"exercise": "Seated Adductor Machine", "weight_kg": "80-100", "reps": "10-12"},
+            {"exercise": "Seated Abductor Machine", "weight_kg": "80-100", "reps": "10-12"}
+          ]
+        }
+      }
+    },
+    "female": {
+      "BMI_18-24": {
+        "beginner": {
+          "push": [
+            {"exercise": "Bench Press", "weight_kg": "10-20", "reps": "8-12"},
+            {"exercise": "Overhead Press", "weight_kg": "2.5-7.5", "reps": "8-12"},
+            {"exercise": "Dips", "weight_kg": "Bodyweight-20", "reps": "10-15"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "2.5-7.5", "reps": "8-12"},
+            {"exercise": "Triceps Pushdown", "weight_kg": "5-15", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "2.5-5", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "2.5-7.5", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Pull-ups", "weight_kg": "Bodyweight-20", "reps": "8-12"},
+            {"exercise": "Barbell Rows", "weight_kg": "10-20", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "5-15", "reps": "12-15"},
+            {"exercise": "Lat Pulldown", "weight_kg": "5-30", "reps": "10-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "2.5-7.5", "reps": "12-15"},
+            {"exercise": "Bicep Curls", "weight_kg": "2.5-7.5", "reps": "10-12"},
+            {"exercise": "Reverse Flys", "weight_kg": "5-10", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Goblet Squats", "weight_kg": "5-15", "reps": "10-15"},
+            {"exercise": "Leg Press", "weight_kg": "30-50", "reps": "12-15"},
+            {"exercise": "Standing Calf Raises", "weight_kg": "Bodyweight-10", "reps": "15-20"},
+            {"exercise": "Bulgarian Split Squats", "weight_kg": "5-15", "reps": "10-12"},
+            {"exercise": "Glute Bridges", "weight_kg": "Bodyweight-15", "reps": "12-15"},
+            {"exercise": "Seated Leg Curls", "weight_kg": "10-30", "reps": "12-15"},
+            {"exercise": "Step-Ups", "weight_kg": "5-15", "reps": "12-15"}
+            ]          
+        },
+        "intermediate": {
+          "push": [
+            {"exercise": "Dumbbell Bench Press", "weight_kg": "20-40", "reps": "8-12"},
+            {"exercise": "Seated Shoulder Press", "weight_kg": "15-30", "reps": "8-12"},
+            {"exercise": "Assisted Dips", "weight_kg": "Bodyweight-10", "reps": "10-12"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "15-30", "reps": "10-12"},
+            {"exercise": "Triceps Rope Pushdown", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "5-15", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "10-20", "reps": "12-15"}
+          ],
+          "pull": [
+            {"exercise": "Assisted Pull-ups", "weight_kg": "Bodyweight-10", "reps": "8-12"},
+            {"exercise": "Dumbbell Rows", "weight_kg": "15-35", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Lat Pulldown", "weight_kg": "30-50", "reps": "10-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Bicep Curls", "weight_kg": "10-20", "reps": "10-12"},
+            {"exercise": "Reverse Flys", "weight_kg": "5-15", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Goblet Squats", "weight_kg": "15-35", "reps": "10-12"},
+            {"exercise": "Leg Press", "weight_kg": "50-80", "reps": "12-15"},
+            {"exercise": "Standing Calf Raises", "weight_kg": "Bodyweight+10", "reps": "12-15"},
+            {"exercise": "Bulgarian Split Squats", "weight_kg": "10-20", "reps": "10-12"},
+            {"exercise": "Glute Bridges", "weight_kg": "Bodyweight-20", "reps": "12-15"},
+            {"exercise": "Seated Leg Curls", "weight_kg": "20-40", "reps": "12-15"},
+            {"exercise": "Step-Ups", "weight_kg": "10-20", "reps": "12-15"}
+          ]
+        },
+        "advanced": {
+          "push": [
+            {"exercise": "Dumbbell Bench Press", "weight_kg": "30-50", "reps": "6-10"},
+            {"exercise": "Seated Shoulder Press", "weight_kg": "25-45", "reps": "6-10"},
+            {"exercise": "Weighted Dips", "weight_kg": "Bodyweight+5", "reps": "8-12"},
+            {"exercise": "Incline Dumbbell Press", "weight_kg": "25-40", "reps": "8-12"},
+            {"exercise": "Triceps Rope Pushdown", "weight_kg": "15-25", "reps": "12-15"},
+            {"exercise": "Lateral Raises", "weight_kg": "10-20", "reps": "12-15"},
+            {"exercise": "Chest Flys", "weight_kg": "15-25", "reps": "10-12"}
+          ],
+          "pull": [
+            {"exercise": "Weighted Pull-ups", "weight_kg": "Bodyweight+5", "reps": "6-10"},
+            {"exercise": "Romanian Deadlifts", "weight_kg": "60-90", "reps": "6-10"},
+            {"exercise": "T-Bar Rows", "weight_kg": "40-70", "reps": "8-12"},
+            {"exercise": "Seated Cable Rows", "weight_kg": "40-60", "reps": "8-12"},
+            {"exercise": "Barbell Curls", "weight_kg": "20-35", "reps": "8-12"},
+            {"exercise": "Hammer Curls", "weight_kg": "15-25", "reps": "8-12"},
+            {"exercise": "Face Pulls", "weight_kg": "15-25", "reps": "12-15"}
+          ],
+          "legs": [
+            {"exercise": "Barbell Squats", "weight_kg": "60-90", "reps": "8-12"},
+            {"exercise": "Leg Press", "weight_kg": "80-150", "reps": "10-12"},
+            {"exercise": "Standing Calf Raises", "weight_kg": "Bodyweight+40", "reps": "12-15"},
+            {"exercise": "Bulgarian Split Squats", "weight_kg": "20-35", "reps": "10-12"},
+            {"exercise": "Glute Ham Raises", "weight_kg": "Bodyweight", "reps": "10-12"},
+            {"exercise": "Seated Calf Raises", "weight_kg": "20-35", "reps": "12-15"}
+          ]
+        }
+      },
+        "BMI_25-29": {
+          "beginner": {
+            "push": [
+              {"exercise": "Bench Press", "weight_kg": "15-30", "reps": "8-12"},
+              {"exercise": "Overhead Press", "weight_kg": "10-20", "reps": "8-12"},
+              {"exercise": "Dips", "weight_kg": "Assisted", "reps": "10-15"},
+              {"exercise": "Incline Dumbbell Press", "weight_kg": "8-20", "reps": "8-12"},
+              {"exercise": "Triceps Pushdown", "weight_kg": "10-20", "reps": "12-15"},
+              {"exercise": "Lateral Raises", "weight_kg": "5-10", "reps": "12-15"},
+              {"exercise": "Chest Flys", "weight_kg": "5-15", "reps": "10-12"}
+            ],
+            "pull": [
+              {"exercise": "Lat Pulldown", "weight_kg": "25-45", "reps": "8-12"},
+              {"exercise": "Seated Cable Rows", "weight_kg": "25-45", "reps": "8-12"},
+              {"exercise": "Face Pulls", "weight_kg": "10-20", "reps": "12-15"},
+              {"exercise": "Assisted Pull-ups", "weight_kg": "Assisted", "reps": "8-12"},
+              {"exercise": "Hammer Curls", "weight_kg": "5-15", "reps": "12-15"},
+              {"exercise": "Bicep Curls", "weight_kg": "5-15", "reps": "10-12"},
+              {"exercise": "Reverse Flys", "weight_kg": "5-10", "reps": "12-15"}
+            ],
+            "legs": [
+              {"exercise": "Leg Press", "weight_kg": "40-80", "reps": "10-12"},
+              {"exercise": "Goblet Squats", "weight_kg": "10-20", "reps": "8-12"},
+              {"exercise": "Leg Extensions", "weight_kg": "20-40", "reps": "12-15"},
+              {"exercise": "Lunges", "weight_kg": "Bodyweight-10", "reps": "10-12"},
+              {"exercise": "Leg Curls", "weight_kg": "20-35", "reps": "10-12"},
+              {"exercise": "Seated Calf Raises", "weight_kg": "10-20", "reps": "12-15"},
+              {"exercise": "Step-Ups", "weight_kg": "Bodyweight-10", "reps": "10-12"}
+            ]
+          },
+          "intermediate": {
+            "push": [
+              {"exercise": "Bench Press", "weight_kg": "30-60", "reps": "6-10"},
+              {"exercise": "Overhead Press", "weight_kg": "20-40", "reps": "6-10"},
+              {"exercise": "Dips", "weight_kg": "Bodyweight", "reps": "8-12"},
+              {"exercise": "Incline Dumbbell Press", "weight_kg": "15-30", "reps": "8-12"},
+              {"exercise": "Triceps Pushdown", "weight_kg": "15-25", "reps": "12-15"},
+              {"exercise": "Lateral Raises", "weight_kg": "8-15", "reps": "12-15"},
+              {"exercise": "Chest Flys", "weight_kg": "10-20", "reps": "10-12"}
+            ],
+            "pull": [
+              {"exercise": "Pull-ups", "weight_kg": "Bodyweight", "reps": "5-8"},
+              {"exercise": "Barbell Rows", "weight_kg": "30-60", "reps": "8-12"},
+              {"exercise": "Face Pulls", "weight_kg": "15-25", "reps": "12-15"},
+              {"exercise": "Lat Pulldown", "weight_kg": "35-55", "reps": "10-12"},
+              {"exercise": "Hammer Curls", "weight_kg": "10-20", "reps": "12-15"},
+              {"exercise": "Bicep Curls", "weight_kg": "10-20", "reps": "10-12"},
+              {"exercise": "Reverse Flys", "weight_kg": "8-15", "reps": "12-15"}
+            ],
+            "legs": [
+              {"exercise": "Squats", "weight_kg": "40-70", "reps": "8-12"},
+              {"exercise": "Leg Press", "weight_kg": "70-120", "reps": "10-12"},
+              {"exercise": "Calf Raises", "weight_kg": "Bodyweight+15", "reps": "12-15"},
+              {"exercise": "Walking Lunges", "weight_kg": "10-20", "reps": "10-12"},
+              {"exercise": "Leg Curls", "weight_kg": "30-50", "reps": "10-12"},
+              {"exercise": "Hip Thrusts", "weight_kg": "40-70", "reps": "10-12"},
+              {"exercise": "Step-Ups", "weight_kg": "10-20", "reps": "10-12"}
+            ]
+          },
+          "advanced": {
+            "push": [
+              {"exercise": "Bench Press", "weight_kg": "50-80", "reps": "4-8"},
+              {"exercise": "Overhead Press", "weight_kg": "35-60", "reps": "4-8"},
+              {"exercise": "Dips", "weight_kg": "Bodyweight+10", "reps": "8-12"},
+              {"exercise": "Incline Dumbbell Press", "weight_kg": "25-40", "reps": "8-12"},
+              {"exercise": "Triceps Pushdown", "weight_kg": "20-30", "reps": "12-15"},
+              {"exercise": "Lateral Raises", "weight_kg": "10-20", "reps": "12-15"},
+              {"exercise": "Chest Flys", "weight_kg": "15-25", "reps": "10-12"}
+            ],
+            "pull": [
+              {"exercise": "Weighted Pull-ups", "weight_kg": "Bodyweight+2", "reps": "6-10"},
+              {"exercise": "Romanian Deadlifts", "weight_kg": "60-100", "reps": "6-10"},
+              {"exercise": "T-Bar Rows", "weight_kg": "40-70", "reps": "8-12"},
+              {"exercise": "Seated Cable Rows", "weight_kg": "45-65", "reps": "8-12"},
+              {"exercise": "Barbell Curls", "weight_kg": "20-35", "reps": "8-12"},
+              {"exercise": "Hammer Curls", "weight_kg": "12-25", "reps": "8-12"},
+              {"exercise": "Face Pulls", "weight_kg": "20-30", "reps": "12-15"}
+            ],
+            "legs": [
+              {"exercise": "Squats", "weight_kg": "70-100", "reps": "8-12"},
+              {"exercise": "Leg Press", "weight_kg": "100-180", "reps": "10-12"},
+              {"exercise": "Calf Raises", "weight_kg": "Bodyweight+40", "reps": "12-15"},
+              {"exercise": "Bulgarian Split Squats", "weight_kg": "20-35", "reps": "10-12"},
+              {"exercise": "Leg Curls", "weight_kg": "45-70", "reps": "10-12"},
+              {"exercise": "Barbell Hip Thrusts", "weight_kg": "70-120", "reps": "10-12"},
+              {"exercise": "Seated Calf Raises", "weight_kg": "25-40", "reps": "12-15"}
+            ]
+          }
+        },
+        "BMI_30+": {
+          "beginner": {
+            "push": [
+              {"exercise": "Machine Chest Press", "weight_kg": "20-40", "reps": "10-15"},
+              {"exercise": "Seated Shoulder Press", "weight_kg": "15-30", "reps": "10-15"},
+              {"exercise": "Assisted Dips", "weight_kg": "Assisted", "reps": "10-15"},
+              {"exercise": "Incline Machine Press", "weight_kg": "20-40", "reps": "10-15"},
+              {"exercise": "Triceps Pushdown", "weight_kg": "10-20", "reps": "12-15"},
+              {"exercise": "Seated Lateral Raises", "weight_kg": "3-8", "reps": "12-15"},
+              {"exercise": "Pec Deck", "weight_kg": "15-30", "reps": "12-15"}
+            ],
+            "pull": [
+              {"exercise": "Lat Pulldown", "weight_kg": "30-50", "reps": "10-15"},
+              {"exercise": "Seated Cable Rows", "weight_kg": "30-50", "reps": "10-15"},
+              {"exercise": "Face Pulls", "weight_kg": "10-20", "reps": "12-15"},
+              {"exercise": "Assisted Pull-ups", "weight_kg": "Heavy Assist", "reps": "8-12"},
+              {"exercise": "Machine Preacher Curls", "weight_kg": "10-20", "reps": "12-15"},
+              {"exercise": "Seated Bicep Curls", "weight_kg": "5-15", "reps": "12-15"},
+              {"exercise": "Machine Reverse Flys", "weight_kg": "10-20", "reps": "12-15"}
+            ],
+            "legs": [
+              {"exercise": "Leg Press", "weight_kg": "60-100", "reps": "12-15"},
+              {"exercise": "Leg Extensions", "weight_kg": "25-40", "reps": "12-15"},
+              {"exercise": "Seated Leg Curls", "weight_kg": "25-40", "reps": "12-15"},
+              {"exercise": "Seated Calf Raises", "weight_kg": "15-30", "reps": "15-20"},
+              {"exercise": "Bodyweight Box Squats", "weight_kg": "Bodyweight", "reps": "10-15"},
+              {"exercise": "Seated Adductor Machine", "weight_kg": "30-50", "reps": "15-20"},
+              {"exercise": "Seated Abductor Machine", "weight_kg": "30-50", "reps": "15-20"}
+            ]
+          },
+          "intermediate": {
+            "push": [
+              {"exercise": "Machine Chest Press", "weight_kg": "35-60", "reps": "8-12"},
+              {"exercise": "Seated Shoulder Press", "weight_kg": "25-45", "reps": "8-12"},
+              {"exercise": "Assisted Dips", "weight_kg": "Light Assist", "reps": "8-12"},
+              {"exercise": "Incline Machine Press", "weight_kg": "35-60", "reps": "8-12"},
+              {"exercise": "Triceps Pushdown", "weight_kg": "20-30", "reps": "10-12"},
+              {"exercise": "Cable Lateral Raises", "weight_kg": "8-12", "reps": "12-15"},
+              {"exercise": "Pec Deck", "weight_kg": "25-40", "reps": "10-12"}
+            ],
+            "pull": [
+              {"exercise": "Lat Pulldown", "weight_kg": "45-65", "reps": "8-12"},
+              {"exercise": "Seated Cable Rows", "weight_kg": "45-65", "reps": "8-12"},
+              {"exercise": "Face Pulls", "weight_kg": "20-30", "reps": "12-15"},
+              {"exercise": "Assisted Pull-ups", "weight_kg": "Medium Assist", "reps": "8-12"},
+              {"exercise": "Machine Preacher Curls", "weight_kg": "15-25", "reps": "10-12"},
+              {"exercise": "Seated Bicep Curls", "weight_kg": "10-20", "reps": "10-12"},
+              {"exercise": "Machine Reverse Flys", "weight_kg": "15-30", "reps": "12-15"}
+            ],
+            "legs": [
+              {"exercise": "Leg Press", "weight_kg": "90-140", "reps": "10-12"},
+              {"exercise": "Leg Extensions", "weight_kg": "40-60", "reps": "10-12"},
+              {"exercise": "Seated Leg Curls", "weight_kg": "40-60", "reps": "10-12"},
+              {"exercise": "Seated Calf Raises", "weight_kg": "25-40", "reps": "12-15"},
+              {"exercise": "Goblet Squats", "weight_kg": "15-25", "reps": "10-12"},
+              {"exercise": "Seated Adductor Machine", "weight_kg": "45-65", "reps": "12-15"},
+              {"exercise": "Seated Abductor Machine", "weight_kg": "45-65", "reps": "12-15"}
+            ]
+          },
+          "advanced": {
+            "push": [
+              {"exercise": "Machine Chest Press", "weight_kg": "60-90", "reps": "6-10"},
+              {"exercise": "Seated Shoulder Press", "weight_kg": "45-70", "reps": "6-10"},
+              {"exercise": "Dips", "weight_kg": "Bodyweight", "reps": "8-12"},
+              {"exercise": "Incline Machine Press", "weight_kg": "60-90", "reps": "6-10"},
+              {"exercise": "Triceps Pushdown", "weight_kg": "25-40", "reps": "8-12"},
+              {"exercise": "Cable Lateral Raises", "weight_kg": "12-20", "reps": "10-12"},
+              {"exercise": "Pec Deck", "weight_kg": "40-60", "reps": "8-12"}
+            ],
+            "pull": [
+              {"exercise": "Lat Pulldown", "weight_kg": "60-85", "reps": "6-10"},
+              {"exercise": "Seated Cable Rows", "weight_kg": "60-85", "reps": "6-10"},
+              {"exercise": "Face Pulls", "weight_kg": "25-40", "reps": "10-12"},
+              {"exercise": "Assisted Pull-ups", "weight_kg": "Light Assist", "reps": "6-10"},
+              {"exercise": "Machine Preacher Curls", "weight_kg": "25-40", "reps": "8-12"},
+              {"exercise": "Seated Bicep Curls", "weight_kg": "15-30", "reps": "8-12"},
+              {"exercise": "Machine Reverse Flys", "weight_kg": "25-40", "reps": "10-12"}
+            ],
+            "legs": [
+              {"exercise": "Leg Press", "weight_kg": "120-180", "reps": "8-12"},
+              {"exercise": "Leg Extensions", "weight_kg": "55-80", "reps": "8-12"},
+              {"exercise": "Seated Leg Curls", "weight_kg": "55-80", "reps": "8-12"},
+              {"exercise": "Seated Calf Raises", "weight_kg": "35-55", "reps": "10-15"},
+              {"exercise": "Smith Machine Squats", "weight_kg": "40-80", "reps": "8-12"},
+              {"exercise": "Hip Thrusts", "weight_kg": "60-100", "reps": "10-12"},
+              {"exercise": "Seated Adductor Machine", "weight_kg": "60-85", "reps": "10-12"},
+              {"exercise": "Seated Abductor Machine", "weight_kg": "60-85", "reps": "10-12"}
+            ]
+          }
+        }
+      }
+},
+  "brosplit": {
+    "male": {
+    "beginner": {
+      "chest": [
+        {"exercise": "Bench Press", "weight_kg": "20-40", "reps": "8-12"},
+        {"exercise": "Incline Dumbbell Press", "weight_kg": "15-30", "reps": "8-12"},
+        {"exercise": "Chest Flys", "weight_kg": "10-20", "reps": "10-12"},
+        {"exercise": "Push-ups", "weight_kg": "Bodyweight", "reps": "12-15"},
+        {"exercise": "Cable Crossovers", "weight_kg": "10-20", "reps": "12-15"}
+      ],
+      "back": [
+        {"exercise": "Lat Pulldown", "weight_kg": "30-50", "reps": "10-12"},
+        {"exercise": "Seated Cable Rows", "weight_kg": "30-50", "reps": "10-12"},
+        {"exercise": "Dumbbell Rows", "weight_kg": "15-25", "reps": "10-12"},
+        {"exercise": "Face Pulls", "weight_kg": "10-20", "reps": "12-15"},
+        {"exercise": "Reverse Flys", "weight_kg": "5-15", "reps": "12-15"}
+      ],
+      "shoulders": [
+        {"exercise": "Overhead Press", "weight_kg": "15-30", "reps": "8-12"},
+        {"exercise": "Lateral Raises", "weight_kg": "5-15", "reps": "12-15"},
+        {"exercise": "Front Raises", "weight_kg": "5-15", "reps": "12-15"},
+        {"exercise": "Reverse Pec Deck", "weight_kg": "10-20", "reps": "12-15"},
+        {"exercise": "Shrugs", "weight_kg": "15-30", "reps": "12-15"}
+      ],
+      "arms": [
+        {"exercise": "Bicep Curls", "weight_kg": "10-20", "reps": "10-12"},
+        {"exercise": "Hammer Curls", "weight_kg": "10-20", "reps": "12-15"},
+        {"exercise": "Triceps Pushdown", "weight_kg": "10-20", "reps": "12-15"},
+        {"exercise": "Overhead Tricep Extension", "weight_kg": "10-20", "reps": "12-15"},
+        {"exercise": "Cable Curls", "weight_kg": "10-20", "reps": "12-15"}
+      ],
+      "legs": [
+        {"exercise": "Squats", "weight_kg": "30-50", "reps": "8-12"},
+        {"exercise": "Leg Press", "weight_kg": "50-80", "reps": "10-12"},
+        {"exercise": "Leg Extensions", "weight_kg": "20-40", "reps": "12-15"},
+        {"exercise": "Leg Curls", "weight_kg": "20-40", "reps": "10-12"},
+        {"exercise": "Calf Raises", "weight_kg": "Bodyweight-20", "reps": "12-15"}
+      ]
+    },
+    "intermediate": {
+      "chest": [
+        {"exercise": "Bench Press", "weight_kg": "40-70", "reps": "6-10"},
+        {"exercise": "Incline Dumbbell Press", "weight_kg": "20-40", "reps": "8-12"},
+        {"exercise": "Chest Flys", "weight_kg": "15-25", "reps": "10-12"},
+        {"exercise": "Dips", "weight_kg": "Bodyweight+10", "reps": "8-12"},
+        {"exercise": "Cable Crossovers", "weight_kg": "15-25", "reps": "12-15"}
+      ],
+      "back": [
+        {"exercise": "Pull-ups", "weight_kg": "Bodyweight+5", "reps": "8-12"},
+        {"exercise": "Barbell Rows", "weight_kg": "40-70", "reps": "8-12"},
+        {"exercise": "T-Bar Rows", "weight_kg": "40-60", "reps": "8-12"},
+        {"exercise": "Face Pulls", "weight_kg": "15-25", "reps": "12-15"},
+        {"exercise": "Reverse Flys", "weight_kg": "10-20", "reps": "12-15"}
+      ],
+      "shoulders": [
+        {"exercise": "Overhead Press", "weight_kg": "30-50", "reps": "6-10"},
+        {"exercise": "Lateral Raises", "weight_kg": "10-20", "reps": "12-15"},
+        {"exercise": "Front Raises", "weight_kg": "10-20", "reps": "12-15"},
+        {"exercise": "Upright Rows", "weight_kg": "20-35", "reps": "10-12"},
+        {"exercise": "Shrugs", "weight_kg": "30-50", "reps": "12-15"}
+      ],
+      "arms": [
+        {"exercise": "Barbell Curls", "weight_kg": "20-35", "reps": "8-12"},
+        {"exercise": "Hammer Curls", "weight_kg": "15-25", "reps": "12-15"},
+        {"exercise": "Skull Crushers", "weight_kg": "20-35", "reps": "8-12"},
+        {"exercise": "Overhead Tricep Extension", "weight_kg": "15-25", "reps": "12-15"},
+        {"exercise": "Preacher Curls", "weight_kg": "15-30", "reps": "10-12"}
+      ],
+      "legs": [
+        {"exercise": "Squats", "weight_kg": "50-85", "reps": "8-12"},
+        {"exercise": "Leg Press", "weight_kg": "80-110", "reps": "10-12"},
+        {"exercise": "Romanian Deadlifts", "weight_kg": "40-70", "reps": "8-12"},
+        {"exercise": "Leg Curls", "weight_kg": "40-60", "reps": "10-12"},
+        {"exercise": "Calf Raises", "weight_kg": "Bodyweight+20", "reps": "12-15"}
+      ]
+    },
+    "advanced": {
+      "chest": [
+        {"exercise": "Bench Press", "weight_kg": "70-120", "reps": "4-8"},
+        {"exercise": "Incline Bench Press", "weight_kg": "60-100", "reps": "6-10"},
+        {"exercise": "Decline Bench Press", "weight_kg": "70-110", "reps": "6-10"},
+        {"exercise": "Weighted Dips", "weight_kg": "Bodyweight+25", "reps": "6-10"},
+        {"exercise": "Cable Flys", "weight_kg": "25-40", "reps": "8-12"}
+      ],
+      "back": [
+        {"exercise": "Weighted Pull-ups", "weight_kg": "Bodyweight+25", "reps": "6-10"},
+        {"exercise": "Deadlifts", "weight_kg": "100-150", "reps": "4-8"},
+        {"exercise": "Bent-over Rows", "weight_kg": "70-100", "reps": "6-10"},
+        {"exercise": "Seated Cable Rows", "weight_kg": "70-100", "reps": "8-12"},
+        {"exercise": "Pull-overs", "weight_kg": "25-40", "reps": "8-12"}
+      ],
+      "shoulders": [
+        {"exercise": "Standing Military Press", "weight_kg": "50-80", "reps": "6-10"},
+        {"exercise": "Arnold Press", "weight_kg": "25-40", "reps": "8-12"},
+        {"exercise": "Lateral Raises", "weight_kg": "15-25", "reps": "10-15"},
+        {"exercise": "Face Pulls", "weight_kg": "25-40", "reps": "12-15"},
+        {"exercise": "Heavy Shrugs", "weight_kg": "60-100", "reps": "8-12"}
+      ],
+      "arms": [
+        {"exercise": "Weighted Chin-ups", "weight_kg": "Bodyweight+20", "reps": "6-10"},
+        {"exercise": "Barbell Curls", "weight_kg": "35-55", "reps": "6-10"},
+        {"exercise": "Close-grip Bench Press", "weight_kg": "60-100", "reps": "6-10"},
+        {"exercise": "Dips", "weight_kg": "Bodyweight+30", "reps": "6-10"},
+        {"exercise": "Preacher Curls", "weight_kg": "30-50", "reps": "8-12"}
+      ],
+      "legs": [
+        {"exercise": "Back Squats", "weight_kg": "100-150", "reps": "6-10"},
+        {"exercise": "Front Squats", "weight_kg": "80-120", "reps": "6-10"},
+        {"exercise": "Deadlifts", "weight_kg": "120-180", "reps": "4-8"},
+        {"exercise": "Leg Press", "weight_kg": "150-250", "reps": "8-12"},
+        {"exercise": "Walking Lunges", "weight_kg": "20-40", "reps": "10-12 per leg"}
+      ]
+    }
+  }
+},
+"female": {
+
+}
+}

@@ -1,0 +1,14 @@
+.start_button{
+    background-color: rgb(10, 205, 10);
+    border: node;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.border-yellow-400 {
+    border-bottom: 2px solid yellow;
+  }
+  .border-green-500 {
+    border-bottom: 2px solid green;
+  }
+  
